@@ -5,9 +5,7 @@ Created on Sun Feb 28 16:10:30 2021
 @author: Jbeltrant
 """
 
-print("Hola Jheison")
-print("Hola Mundo Jheison")
-
+# TALLER ALGORITMO SECUENCIALES
 # EJERCICIO 1
 
 Primer_inversion = float(input("Digite el valor a invertir #1: "))
@@ -31,7 +29,7 @@ print(Total_inversion33)
 
 # EJERCICIO 2
 Pago_Basico = float(input("Digite el sueldo basico: "))
-Num_Hijos = float(input("Digite el # de hijos: "))
+Num_Hijos = float(input("Digite el número de hijos: "))
 Total_Bono = Num_Hijos * 80000
 print("Bonificación del empleado: ")
 print(Total_Bono)
@@ -49,7 +47,7 @@ print("Soldo más interes:")
 print(Total_conInteres)
 
 # EJERCICIO 4
-Num_m4 = float(input("Digite el # de metro cuadrado: "))
+Num_m4 = float(input("Digite el número de metro cuadrado: "))
 Total_m4 = Num_m4 * 80000
 Cuota_Inicial = Total_m4 * 0.35
 Saldo_Pendiente = Total_m4 - Cuota_Inicial
@@ -83,9 +81,9 @@ print("Total a pagar: ")
 print(Total_Pago)
 
 # EJERCICIO 6
-Num_palabras = float(input("Digite el # de palabras: "))
-Num_cm = float(input("Digite el # de cm: "))
-Num_colores = float(input("Digite el # de colores: "))
+Num_palabras = float(input("Digite el número de palabras: "))
+Num_cm = float(input("Digite el número de cm: "))
+Num_colores = float(input("Digite el número de colores: "))
 Valor_palabras = Num_palabras * 20000
 Valor_cm = Num_cm * 15000
 Valor_colores = Num_colores * 25000
@@ -100,7 +98,7 @@ print("Total a pagar: ")
 print(Total_Pago)
 
 # EJERICIO 7
-Num_años = float(input("Digite el # de años labordos: "))
+Num_años = float(input("Digite el número de años labordos: "))
 Años_Trabajados = (Num_años * 120000) - 20000
 Año_Trabajado = 100000
 if (Num_años >= 2):
@@ -131,7 +129,7 @@ print("Total a pagar: ")
 print(Monto_Base_Total)
 
 # EJERCICIO 10
-Num_Foto = float(input("Digite el # de fotos a revelar: "))
+Num_Foto = float(input("Digite el número de fotos a revelar: "))
 Valor_Base = Num_Foto * 1500
 Valor_Iva = Valor_Base * 0.16
 Valor_Total = Valor_Base + Valor_Iva
@@ -153,16 +151,16 @@ print("Valor ptto Pediatría: ")
 print(Ptto_Pediatría)
 
 # EJERCICIO 12
-Num_Peliculas = float(input("Digite el # de peliculas para alquiler: "))
-Num_Días = float(input("Digite el # días: "))
+Num_Peliculas = float(input("Digite el número de peliculas para alquiler: "))
+Num_Días = float(input("Digite el número días: "))
 Valor_Peliculas = Num_Peliculas * Num_Días
 Valor_Total = (Valor_Peliculas * 1500) - 1500
 print("Total a pagar: ")
 print(Valor_Total)
 
 # EJERCICIO 13
-Num_Personas = float(input("Digite el # personas: "))
-Num_Días = float(input("Digite el # días: "))
+Num_Personas = float(input("Digite el número personas: "))
+Num_Días = float(input("Digite el número días: "))
 Valor_Viaje = (Num_Personas * Num_Días) * 25000
 Valor_Iva = Valor_Viaje * 0.12
 Valor_Total = Valor_Viaje + Valor_Iva
@@ -172,7 +170,7 @@ print("Total a pagar: ")
 print(Valor_Total)
 
 # EJERCICIO 14
-Num_días = float(input("Digite el # de días en hotel: "))
+Num_días = float(input("Digite el número de días en hotel: "))
 Días_Estadía = (Num_días * 200000) - 100000
 Día_Estadía = 100000
 if (Num_días >= 2):
@@ -193,3 +191,5 @@ print("Valor cuotas especiales: ")
 print(Cuota_Especial)
 print("Valor cuotas ordinarias: ")
 print(Cuota_ordinarias)
+
+# JABT
