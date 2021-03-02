@@ -93,6 +93,65 @@ else:
     print("Valor a pagar con descuento del 40% es: ")
     print(Valor_Descuento3)
 
-# Valor_Devaluo1 = Valor_comercial * Valor_Devaluo
-# Valor_Avaluo1 = Valor_comercial * Valor_Avaluo
-# Valor_Total_Avaluo = Valor_Avaluo1 / 2
+# EJERCICIO 7
+Valor = int(input('Digite el precio del aparato a comprar  : '))
+Marca = input('Digite la marca del aparato: ')
+if Valor >= 2000 and Marca.lower() == 'nosy':
+    Total_Descuento = Valor - (Valor * 0.10) - (Valor * 0.05)
+    Total_IVA = Total_Descuento + (Total_Descuento * 0.16)
+    print(f' Total: {Total_IVA}')
+elif Valor >= 2000:
+    Total_Descuento = Valor - (Valor * 0.10)
+    Total_IVA = Total_Descuento + (Total_Descuento * 0.16)
+    print(f' Total: {Total_IVA}')
+elif Marca.lower() == 'nosy':
+    Total_Descuento = Valor - (Valor * 0.05)
+    Total_IVA = Total_Descuento + (Total_Descuento * 0.16)
+    print(f' Total: {Total_IVA}')
+else:
+    print(f' Total: {Valor}')
+
+# EJERCICIO 8
+Valor_Compra = float(input('Digite el monto total de la compra : '))
+if Valor_Compra > 500000:
+    Dinero_Propio = Valor_Compra * 0.55
+    Prestamo_Banco = Valor_Compra * 0.30
+    Prestamo_Fabricante = Valor_Compra * 0.15
+    Intereses = Prestamo_Fabricante * 0.20
+    print(f' Cantidad a invertir: {Dinero_Propio}')
+    print(f' Valor del prestamo del banco: {Prestamo_Banco}')
+    print(f' Valor del credito al fabricante: {Prestamo_Fabricante}')
+    print(f' Intereses causados: {Intereses}')
+elif Valor_Compra <= 500000:
+    Dinero_Propio = Valor_Compra*0.70
+    Prestamo_Fabricante = Valor_Compra * 0.30
+    Intereses = Prestamo_Fabricante * 0.20
+    print(f' Cantidad a invertir: {Dinero_Propio}')
+    print(f' Valor del credito al fabricante: {Prestamo_Fabricante}')
+    print(f' Intereses causados: {Intereses}')
+
+# EJERCICIO 9
+Recoletar_n1 = float(input('Digite el primer número : '))
+Recoletar_n2 = float(input('Digite el segundo número : '))
+if Recoletar_n1 == Recoletar_n2:
+    Resultado1 = Recoletar_n1 * Recoletar_n2
+    print(f' Total: {Resultado1}')
+elif Recoletar_n1 > Recoletar_n2:
+    Resultado2 = Recoletar_n1 - Recoletar_n2
+    print(f' Total: {Resultado2}')
+elif Recoletar_n1 < Recoletar_n2:
+    Resultado3 = Recoletar_n1 + Recoletar_n2
+    print(f' Total: {Resultado3}')
+
+# EJERCICIO 10
+Recoletar_n1 = float(input('Digite el primer número : '))
+Recoletar_n2 = float(input('Digite el segundo número : '))
+Recoletar_n3 = float(input('Digite el tercer número : '))
+if Recoletar_n1 > Recoletar_n2 and Recoletar_n1 > Recoletar_n3:
+    print(f'El mayor numero es el : {Recoletar_n1}')
+elif Recoletar_n2 > Recoletar_n1 and Recoletar_n2 > Recoletar_n3:
+    print(f'El mayor numero es el : {Recoletar_n2}')
+elif Recoletar_n3 > Recoletar_n1 and Recoletar_n3 > Recoletar_n2:
+    print(f'El mayor numero es el : {Recoletar_n3}')
+
+# JABT
